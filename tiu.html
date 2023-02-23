@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tiu</title>
+    <link rel="stylesheet" href="css/tiu.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <ul class="menu">
+            <li class="menulink">
+                <a href="#">
+                    <i class="fa-solid fa-bars"></i>
+                    Menu</a>
+                <ul class="menudown">
+                    <li><a href="#">Louis Vuitton x Yayoi Kusama</a></li>
+                    <li><a href="#">Ngày lễ tình nhân</a></li>
+                    <li><a href="#">Sản phẩm mới</a></li>
+                    <li><a href="#">Túi</a></li>
+                    <li><a href="#">Đồ Nữ</a></li>
+                    <li><a href="#">Đồ Nam</a></li>
+                    <li><a href="#">Trang sức</a></li>
+                    <li><a href="#">Đồng hồ</a></li>
+                    <li><a href="#">Nước hoa</a></li>
+                </ul>
+            </li>
+            <li><a href="#" class="timkiem">
+                    Tìm Kiếm
+                </a></li>
+        </ul>
+        <h1>
+            <a href="index.html">LOUIS VUITTON</a>
+        </h1>
+        <ul class="menu1">
+            <li><a href="#" class="ds">Danh sách yêu thích</a></li>
+            <li><a href="dangnhap.html" class="my">MyLV</a></li>
+        </ul>
+    </header>
+    <nav>
+        <a href="#">
+            <img class="nu1" src="image/nu1.png" alt="">
+        </a>
+    </nav>
+    <article>
+        <div class="ten">
+            <p class="maso">M46432</p>
+            <p class="tieude">TÚI DAUPHINE MM LV X YK</p>
+            <p class="gia">103.000.000₫</p>
+            <div class="phim">
+                <button class="lh">Liên hệ để biết thông tin</button> <br>
+                <button class="kt">Kiểm tra tình trạng tại cửa hàng</button>
+            </div>
+        </div>
+    </article>
+    <div class="mota">
+        <p>Túi Dauphine MM LV x YK có họa tiết chủ đạo “Painted Dots” trong bộ sưu tập độc quyền <br> Louis Vuitton x
+            Yayoi Kusama. Nghệ sĩ đáng kính người Nhật Bản được biết đến với việc <br> sử dụng những dấu chấm biểu tượng
+            từ khi bà còn nhỏ. Với phiên bản mới của túi <br> Dauphine, họa tiết chấm bi nhiều màu sắc được in bằng kỹ
+            thuật in lụa với hiệu ứng vẽ tay <br> 3D trên chất liệu Monogram Canvas. Dấu chấm tròn mang đến diện mạo mới
+            mẻ và sáng tạo <br> cho chiếc túi kinh điển.</p>
+    </div>
+    <div style="--swiper-navigation-color: #000000; --swiper-pagination-color: #fff" class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="image/11111.png" loading="lazy" />
+                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+            </div>
+            <div class="swiper-slide">
+                <img src="image/22222.png" loading="lazy" />
+                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+            </div>
+            <div class="swiper-slide">
+                <img src="image/3333.webp" loading="lazy" />
+                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+            </div>
+            <div class="swiper-slide">
+                <img src="image/4444.webp" loading="lazy" />
+                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+            </div>
+            <div class="swiper-slide">
+                <img src="image/5555.png" loading="lazy" />
+                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+            </div>
+            <!-- <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-6.jpg" loading="lazy" />
+            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-7.jpg" loading="lazy" />
+            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-8.jpg" loading="lazy" />
+            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-9.jpg" loading="lazy" />
+            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+          </div> -->
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            lazy: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+    <div class="gioithieu">
+        <p>Chi tiết sản phẩm</p>
+        <hr>
+        <p>25 x 17 x 10.5 cm <br>
+            (Chiều dài x Chiều cao x Chiều rộng)</p>
+
+        <div class="mucluc">
+            <ul class="muc1">
+                <li>Chất liệu Monogram Canvas in họa tiết Painted Dots với hiệu ứng 3D</li>
+                <li>Đường viền bằng da bò tự nhiên</li>
+                <li>Lớp lót bằng vải microfiber</li>
+                <li>Chi tiết kim loại màu vàng ánh kim</li>
+                <li>Tên bộ sưu tập Louis Vuitton x Yayoi Kusama</li>
+                <li>Khóa nam châm ở mặt trước túi</li>
+                <li>2 ngăn bên trong</li>
+            </ul>
+            <ul class="muc2" >
+                <li>Ngăn giữa có khóa kéo</li>
+                <li>Ngăn bên trong ở mặt sau</li>
+                <li>Dây đeo: Có thể tháo rời và điều chỉnh độ dài</li>
+                <li>Chiều dài dây đeo: 25.0 cm</li>
+                <li>Chiều dài dây đeo tối đa: 45.0 cm</li>
+                <li>Dây xích: Có thể tháo rời</li>
+                <li>Chiều dài dây xích: 27.5 cm</li>
+            </ul>
+        </div>
+        <img src="image/00000.png" alt="">
+    </div>
+    <footer>
+        <h4 class="logo">LOUIS VUITTON</h4>
+        <hr class="hrr">
+        <ul class="lists">
+            <li>
+                <img src="image/vn.png" >
+                <a href="#">VIETNAM</a>   
+            </li>
+            <li><a href="#">Thư điện tử</a></li>
+            <li><a href="#">Liên hệ</a></li>
+            <li><a href="#">Cửa hàng</a></li>
+            <li><a href="#">Phát triển bền vững</a></li>
+            <li><a href="#">Ứng dụng</a></li>
+            <li><a href="#">Theo dõi chúng tôi</a></li>
+            <li><a href="#">Pháp lý & Quyền riêng tư</a></li>
+            <li><a href="#">Nghề nghiệp</a></li>
+            <li><a href="#">Sơ đồ trang web</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

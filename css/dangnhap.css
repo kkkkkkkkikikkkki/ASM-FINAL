@@ -1,0 +1,50 @@
+
+form{
+    width: 500px;
+    height: 585px;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 85px auto;
+    text-align: center;
+    box-shadow: 9px -9px 10px 4px rgb(139, 139, 139);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 25 px;
+}
+.tieude{
+    margin: -4px 0;
+    display: block;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.dieukhien{
+    width: 380px;
+    height: 30px;
+    border-radius: 40px;
+    box-shadow: 0 0 0 0 red;
+}
+button{
+    margin-top: 40px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 171px;
+    height: 40px;
+    font-size: 20px;
+}
+hr{
+    margin-top: 25px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dangky{
+    margin-top: 1px;
+}
+placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+}
